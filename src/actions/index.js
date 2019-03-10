@@ -1,4 +1,4 @@
-export const SelectSong = (song) => {
+export const selectSong = (song) => {
     return {
         type: 'SELECT_SONG',
         payload: song
